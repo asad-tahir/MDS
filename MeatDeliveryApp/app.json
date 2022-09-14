@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "MeatDeliveryApp",
+    "slug": "MeatDeliveryApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

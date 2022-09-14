@@ -1,0 +1,98 @@
+{
+    "MeatDelivery": {
+      "ItemsIdCount": "3",
+      "ShopsIdCount": "3",
+      "InvoicesIdCount": "2",
+      "Invoices":[
+        {
+          "Id":"1",
+          "TimeCreated":"DateTime",
+          "Date": "04/05/2022",
+          "Day": "Wednesday",
+          "ShopId": "1",
+          "ShopName": "A1",
+          "Deleted": "false",
+          "Items": [
+            {
+              "Id": "1",
+              "Title": "Ewe",
+              "Type": "Weight",
+              "Quantity": 10,
+              "PricePerKg": 4.80,
+              "Weight":[
+                {"Id":"1", "Weight": 22},
+                {"Id":"2", "Weight": 22},
+                {"Id":"3", "Weight": 22}
+              ]
+            }
+          ]
+        },
+        {
+          "Id":"2",
+          "TimeCreated":"DateTime",
+          "Date": "04/05/2022",
+          "Day": "Wednesday",
+          "ShopId": "2",
+          "ShopName": "Matco",
+          "Deleted": "false",
+          "Items": [
+            {
+              "Id": "1",
+              "Title": "Ewe",
+              "Type": "Weight",
+              "Quantity": 10,
+              "PricePerKg": 4.80,
+              "Weight":[
+                {"Id":"1", "Weight": 22},
+                {"Id":"2", "Weight": 22},
+                {"Id":"3", "Weight": 22}
+              ]
+            },
+            {
+              "Id": "1",
+              "Title": "Lamb",
+              "Type": "Weight",
+              "Quantity": 10,
+              "PricePerKg": 6.80,
+              "Weight":[
+                {"Id":"1", "Weight": 12},
+                {"Id":"2", "Weight": 15},
+                {"Id":"3", "Weight": 13}
+              ]
+            }
+          ]
+        }
+      ],
+      "Items":[
+        {
+          "Id":"1",
+          "Name": "Ewe",
+          "Type": "Weight"
+        },
+        {
+          "Id":"2",
+          "Name": "Lamb",
+          "Type": "Weight"
+        },
+        {
+          "Id":"3",
+          "Name": "Feet",
+          "Type": "Quantity"
+        }
+      ],
+      "Shops":[
+        {
+          "Id": "1",
+          "Name": "A1"
+        },
+        {
+          "Id": "2",
+          "Name": "Matco"
+        },
+        {
+          "Id": "3",
+          "Name": "VEG Express"
+        }
+      ]
+    }
+  }
